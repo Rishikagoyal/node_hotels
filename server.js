@@ -3,6 +3,7 @@ const app= express();
 const db=require('./db');
 const menu=require('./models/menu');
 const hotel=require('./models/hotels');
+require('dotenv').config();
 
 const bodyParser= require('body-parser');
 app.use(bodyParser.json());
